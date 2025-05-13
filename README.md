@@ -52,16 +52,4 @@ An indie minimal-adventure game with light visual novel elements — you guide a
 - **Current Progress:** Prototyping character + interaction system
 
 ---
-
-## 📁 Folder Structure
-
-```bash
-WinterBloom/
-├── assets/           # 2D art, textures, sounds
-├── models/           # Blender models and exports
-├── scripts/          # Game scripts (GDScript, dialogue logic, etc.)
-├── scenes/           # Godot scenes and levels
-├── ai/               # LimboAI trees, state machines
-├── README.md
-├── LICENSE
-└── .gitignore
+## 🙏 Thanks for visiting.
