@@ -1,55 +1,86 @@
-# Winter's Bloom
+# ❄️ Winter's Bloom
 
-An indie minimal-adventure game with light visual novel elements — you guide a mysterious girl named **Eira** through a snow-covered world where everything responds, but nothing explains itself. There are no voices, no direct dialogue — only gestures, choices, and your presence as a mysterious player beyond the screen.
+A minimal adventure game with visual novel elements — players will guide a mysterious little girl named **Eira** through a silent, desolate world in the harsh winter. Everything responds, but no one explains anything.
 
----
-
-## 🧊 Concept (English)
-
-- **Genre:** Minimal Adventure / Visual Novel / Philosophical Indie
-- **Themes:** Journey, Cycles, Growth, Memory
-- **Perspective:** 2.5D — Character moves in a 2D environment with 3D model support
-- **Core Mechanics:**
-  - Cursor-based interaction — the character notices and responds to your movement.
-  - Emotional logic via **LimboAI**
-  - Interactive world: birds, trees, toys, broken paths — everything responds
-
-### 🌸 Gameplay Loop
-
-- Player meets Eira — a 9-year-old girl who seems lost in the snow
-- No introduction, no voice, just curiosity and mutual discovery
-- Choices and interactions affect her trust and mood
-- Each playthrough builds upon fragments of previous ones
-- Endings reflect awareness and emotional growth
+There is no voice acting, no dialogue — only ambient sounds, emotional cues, and "you," the player, who is outside the screen, offering warmth and comfort to the lonely child in this world. A day will come when spring arrives, and the flowers will bloom once again 🌸.
 
 ---
 
-## 🧊 คอนเซปต์ (ภาษาไทย)
+> **🇹🇭 สำหรับภาษาไทยคลิก [ที่นี่](README-th.md)**
 
-- **แนวเกม:** ผจญภัยมินิมอล / วิชวลโนเวล / อินดี้แนวจิตวิทยา
-- **ธีมหลัก:** การเดินทาง / วัฏจักร / การเติบโต / ความทรงจำ
-- **มุมมอง:** 2.5D — ใช้โมเดล 3D กับฉาก 2D
-- **ระบบเด่น:**
-  - โต้ตอบผ่านเคอร์เซอร์ — น้อง Eira รู้สึกและตอบสนองได้
-  - ระบบความรู้สึกและทางเลือก โดยใช้ **LimboAI**
-  - โลกที่ตอบสนองกับสิ่งของทั้งหมด เช่น ต้นไม้ นก เส้นทาง ของเล่น ฯลฯ
+## 🧊 About the Game
 
-### 🌸 โครงเรื่อง
+* **Genre:** Minimal Adventure / Visual Novel / Indie / Light Psychological Themes
+* **Main Themes:** Journey, Lack of Control, Growth, Memories, Reflection
+* **Perspective:** 2.5D — Hand-drawn backgrounds with 3D characters presented in a 2D style
+* **Overview:**
 
-- เริ่มเกมโดยไม่มีคำบรรยาย ผู้เล่นเจอเด็กหญิงชื่อ Eira อยู่กลางหิมะ
-- ไม่มีเสียง ไม่มีคำพูด มีเพียงการสื่อสารผ่านท่าทางและการเขียน
-- การเลือกของผู้เล่นจะส่งผลต่อ “ความเชื่อใจ” และ “อารมณ์” ของ Eira
-- เมื่อเล่นซ้ำ น้องอาจจำอะไรบางอย่างได้
-- ฉากจบสะท้อนถึงการเติบโตของทั้งผู้เล่นและ Eira
+  * Characters are low-poly models with anime-inspired design
+  * Backgrounds are hand-drawn in Krita and Inkscape with a minimal 2D style
+  * The player has no direct dialogue or commands — all interactions are controlled through **cursor movement**
+  * Emotional system and choices are managed by **LimboAI**
 
 ---
 
-## 🔧 Development Info
+## 🌸 Gameplay
 
-- **Engine:** Godot 4.x
-- **Character Design:** 2.5D low-poly anime-inspired model
-- **Tools Used:** LimboAI, Blender, Godot-native systems
-- **Current Progress:** Prototyping character + interaction system
+* Eira is a 9-year-old girl standing alone in a snowy place
+* No spoken words — the game uses gestures, movement, ambient sounds, and small choices
+* The world reacts to mouse clicks or movement
+* Eira's trust and emotions will change based on the player’s actions
+* Each playthrough may reveal "new memories" from previous sessions
+* Endings vary depending on the relationship between the player and Eira
 
 ---
-## 🙏 Thanks for visiting.
+
+## ⚙️ Tools Used
+
+* **Engine:** Godot 4.x
+* **Backgrounds:** Created with Krita and Inkscape
+* **Characters:** Modeled in Blender and VRoid Studio (modified to look 2D)
+* **Additional Systems:**
+
+  * [LimboAI](https://github.com/limbonaut/limboai) — Manages emotions and logic
+  * [Godot Git Plugin](https://github.com/godotengine/godot-git-plugin) — VCS plugin
+
+---
+
+## 📦 How to Set Up the Project
+
+> This project does not include external plugins in the repo, so you’ll need to install them separately.
+
+### ✅ After cloning the project
+
+1. Install **LimboAI** in `addons/limboai/`
+   → [Download from GitHub](https://github.com/limbonaut/limboai)
+
+2. (Optional) Install the `addons/godot-git-plugin/`
+   → [Download here](https://github.com/godotengine/godot-git-plugin)
+
+3. Open with **Godot 4.x** and press Run ✨
+
+---
+
+## 🤍 Who is this project for?
+
+Winter’s Bloom is a small project created with care by an indie developer who wants to try new ways of storytelling and create something meaningful for the world to see.
+
+If you…
+
+* Enjoy cozy, simple games that make you think
+* Are interested in art, writing, Godot coding, or just want to help test
+* Are looking for a small project to work on during your free time or add to your portfolio
+
+**You’re always welcome! 🍃**
+Feel free to contact through Issues or Discussions on GitHub, or just give a star for support ⭐
+
+---
+
+## 🙏 Thanks for stopping by
+
+> "Winter is cold...
+> But your presence makes it bloom."
+
+— From the game developer’s heart
+
+---
